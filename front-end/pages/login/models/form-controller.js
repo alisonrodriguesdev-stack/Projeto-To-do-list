@@ -15,12 +15,41 @@ export function init(){
 }
 
 
+
+
+
+
 function Login(e){
     e.preventDefault()
-    const email = state.email.value
-    const senha= state.senha.value
 
-    console.log(email, senha)
-    email =+ ""
-    senha =+ ""
+    validarFormulario();
+}
+
+let validarFormulario = ()=>{
+    let email = state.email.value
+    let senha = state.senha.value
+    console.log("validando formulario")
+    if(email === ""){
+        //msgErro.innerHTML ="Preencha o campo";
+        console.log("Dados não foram aceitos");
+        state.email.focus();
+    }else{
+        console.log("Dados aceitos")
+        //msgErro.innerHTML =""
+        aceitaDados();
+    }
+    if(senha === ""){
+        console.log("Dados não informados 2")
+    }else{
+        console.log("Dados aceitos")
+        //msgErro.innerHTML =""
+    }
+}
+
+let dados={};
+let aceitaDados=()=>{
+    dados["email"]= state.email.value;
+    dados["senha"]= state.senha.value
+
+    console.log(dados);
 }
