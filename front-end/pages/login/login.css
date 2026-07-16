@@ -1,7 +1,11 @@
 body {
     margin: 0;
     padding: 0;
+<<<<<<< HEAD
     background-image: url(https://www.confeticidad.com/wp-content/uploads/Colores-tristes-scaled.jpg);
+=======
+    background: linear-gradient(337deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+>>>>>>> 521f10d60414d9a2a125ad42f562e4670a108313
     background-size: cover;
     height: 100vh;
 
@@ -16,8 +20,13 @@ body {
 }
 
 .login-card {
+<<<<<<< HEAD
     width: 400px;
     background: rgba(255, 255, 255, 0.63);
+=======
+    width: 300px;
+    background: rgba(255, 255, 255, 0.185);
+>>>>>>> 521f10d60414d9a2a125ad42f562e4670a108313
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 22px;
     box-shadow: 0px 20px 60px rgba(255, 255, 255, 0.416);
@@ -43,6 +52,7 @@ h2 {
 
 .icon {
     margin-right: 10px;
+<<<<<<< HEAD
 
 }
 
@@ -91,4 +101,6 @@ h2 {
     cursor: pointer;
     background-color: rgba(245, 245, 245, 0.788);
 
+=======
+>>>>>>> 521f10d60414d9a2a125ad42f562e4670a108313
 }
