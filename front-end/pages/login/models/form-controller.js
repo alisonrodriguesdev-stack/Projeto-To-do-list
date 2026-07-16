@@ -3,7 +3,7 @@ function state(){
     this.senha = null
     this.email= null
 
-    this.btnLogin
+    this.btnLogin= null;
 }
 
 export function init(){
