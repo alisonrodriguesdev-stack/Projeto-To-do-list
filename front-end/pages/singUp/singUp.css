@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(https://www.confeticidad.com/wp-content/uploads/Colores-tristes-scaled.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cadastro{
+    width: 400px;
+    background: rgba(255, 255, 255, 0.63);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 22px;
+    box-shadow: 0px 20px 60px rgba(255, 255, 255, 0.416);
+    backdrop-filter: blur(4px);
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-box{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    background: rgba(175, 71, 71, 0.021);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.input-box input {
+    background: rgba(0, 0, 0, 0.12);
+    flex: 1;
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+
+.ButtonCad{
+    width: 400px;
+    padding: 10px;
+    background: rgb(255, 255, 255)
+    color black;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: rgba(245, 245, 245, 0.788);
+}
+
+.HP{
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    margin-top: 10px;
+}
