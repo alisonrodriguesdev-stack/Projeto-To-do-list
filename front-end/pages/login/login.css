@@ -1,11 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-
     background-image: url(https://www.confeticidad.com/wp-content/uploads/Colores-tristes-scaled.jpg);
-
-
-
     background-size: cover;
     height: 100vh;
 
@@ -23,10 +19,6 @@ body {
 
     width: 400px;
     background: rgba(255, 255, 255, 0.63);
-
-
-    background: rgba(255, 255, 255, 0.185);
-
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 22px;
     box-shadow: 0px 20px 60px rgba(255, 255, 255, 0.416);
@@ -52,7 +44,6 @@ h2 {
 
 .icon {
     margin-right: 10px;
-
 
 }
 
@@ -100,6 +91,5 @@ h2 {
     border-radius: 20px;
     cursor: pointer;
     background-color: rgba(245, 245, 245, 0.788);
-
 
 }
